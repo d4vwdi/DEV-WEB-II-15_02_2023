@@ -1,6 +1,12 @@
 var soma = require('./soma.js')
+var soma = require('./subtracao.js')
+var soma = require('./multiplicacao.js')
+var soma = require('./divisao.js')
 
-console.log(some(10,10))
+console.log(soma(10,10))
+console.log(subtracao(10,10))
+console.log(multiplicacao(10,10))
+console.log(divisao(10,10))
 
 // var a = 10
 
