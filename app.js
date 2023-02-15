@@ -1,11 +1,20 @@
-var http = require("http")
 
-http.createServer(function(req, res){
-    res.end("Mensagem direcionada!")
-}).listen(8081)
+var multiplicacao = require('./multiplicacao.js')
 
-console.log("Servidor Ativo!")
+console.log(multiplicacao(10,10))
 
+
+
+
+//CRIAÇÃO SERVIDOR NODE.JS
+//var http = require("http")
+//
+//http.createServer(function(req, res){
+//    res.end("Mensagem direcionada!")
+//}).listen(8081)
+//
+//console.log("Servidor Ativo!")
+//FIM DA CRIAÇÃO SERVIDOR NODE.JS
 
 //CARREGAMENTO DE MÓDULOS
 //var soma = require('./soma.js')
