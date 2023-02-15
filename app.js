@@ -4,7 +4,7 @@ http.createServer(function(req, res){
     res.end("Mensagem direcionada!")
 }).listen(8081)
 
-console.log(Servidor Ativo!)
+console.log("Servidor Ativo!")
 
 
 //CARREGAMENTO DE MÓDULOS
