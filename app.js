@@ -1,7 +1,11 @@
 
 var multiplicacao = require('./multiplicacao.js')
 
-console.log(multiplicacao(n1, n2))
+for(i = 0; i <= 10; i++){
+    console.log("2 X " + i + " = ", multiplicacao(2, i))
+}
+
+
 
 
 
