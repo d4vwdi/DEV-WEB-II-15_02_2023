@@ -1,14 +1,12 @@
 
-var multiplicacao = require('./multiplicacao.js')
 
-for(i = 0; i <= 10; i++){
-    console.log("2 X " + i + " = ", multiplicacao(2, i))
-}
-
-
-
-
-
+//TABUADA DO 2    
+// var multiplicacao = require('./multiplicacao.js')
+// 
+// for(i = 0; i <= 10; i++){
+//     console.log("2 X " + i + " = ", multiplicacao(2, i))
+// }
+//FIM DA TABUADA DO 2
 
 
 //CRIAÇÃO SERVIDOR NODE.JS
