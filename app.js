@@ -1,12 +1,16 @@
-var a = 10
+var soma = require('./soma.js')
 
-    if(a <= 10){
-        console.log("A variável a é menor ou igual a 10")
-    }else{
-        console.log("A variável a é maior que 10")
-    }
+console.log(some(10,10))
 
-    
+// var a = 10
+
+//     if(a <= 10){
+//         console.log("A variável a é menor ou igual a 10")
+//     }else{
+//         console.log("A variável a é maior que 10")
+//     }
+
+//    ETAPA 1 
 // var b = 30
 // var total = 0
 
