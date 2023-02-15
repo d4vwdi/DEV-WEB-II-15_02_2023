@@ -1,5 +1,5 @@
-var soma = function(n1, n2){
+var subtracao = function(n1, n2){
     return n1 - n2
 }
 
-module.exports = soma
+module.exports = subtracao
