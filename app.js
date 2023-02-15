@@ -1,7 +1,8 @@
 
 var multiplicacao = require('./multiplicacao.js')
 
-console.log(multiplicacao(10,10))
+console.log(multiplicacao(2, n2))
+
 
 
 
