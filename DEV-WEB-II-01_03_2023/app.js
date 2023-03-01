@@ -10,8 +10,8 @@ app.get("/contato", function(req, res){
     res.send("Estou na página de contato.")
 })
 //Teste mais uma outra página
-app.get("/produto", function(req, res){
-    res.send("Estou na página de produto.")
+app.get("/produto/:item", function(req, res){
+    res.send(req.params)
 })
 //Criando o servidor web na porta 8081
 app.listen(8081, function(){
