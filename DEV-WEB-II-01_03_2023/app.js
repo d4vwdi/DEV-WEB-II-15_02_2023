@@ -15,7 +15,7 @@ app.get("/produto", function(req, res){
 })
 //Teste mais uma outra página
 app.get("/produto/:item/:quantidade", function(req, res){
-    res.send("Item: " + req.params + "<br>Quantidade: " + req.params.quantidade)
+    res.send("Item: " + req.params.item + "<br>Quantidade: " + req.params.quantidade)
 })
 //Criando o servidor web na porta 8081
 app.listen(8081, function(){
