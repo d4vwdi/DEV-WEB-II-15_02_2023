@@ -10,6 +10,10 @@ app.get("/contato", function(req, res){
     res.send("Estou na página de contato.")
 })
 //Teste mais uma outra página
+app.get("/produto", function(req, res){
+    res.send("Estou na página de produto.")
+})
+//Teste mais uma outra página
 app.get("/produto/:item", function(req, res){
     res.send(req.params)
 })
