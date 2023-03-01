@@ -5,7 +5,10 @@ const app = express()
 app.get("/", function(req, res){
     res.send("Estou na primeira página.")
 })
-
+//Teste com uma outra página
+app.get("/contato", function(req, res){
+    res.send("Estou na página de contato.")
+})
 //Criando o servidor web na porta 8081
 app.listen(8081, function(){
     console.log("Servidor Ativo!")
