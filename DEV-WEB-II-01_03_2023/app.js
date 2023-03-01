@@ -10,10 +10,10 @@ app.get("/contato", function(req, res){
     res.send("Estou na página de contato.")
 })
 //Teste mais uma outra página
-app.get("/produto", function(req, res){
-    res.send("Estou na página de produto.")
+app.get("/produto/:item", function(req, res){
+    res.send("Item: " + req.params.item)
 })
-//Teste mais uma outra página
+//Teste quantidade na página produto
 app.get("/produto/:item/:quantidade", function(req, res){
     res.send("Item: " + req.params.item + "<br>Quantidade: " + req.params.quantidade)
 })
