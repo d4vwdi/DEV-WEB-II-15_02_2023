@@ -9,6 +9,10 @@ app.get("/", function(req, res){
 app.get("/contato", function(req, res){
     res.send("Estou na página de contato.")
 })
+//Página de produto
+app.get("/produto", function(req, res){
+    res.send("Estou na página de produto.")
+})
 //Teste mais uma outra página
 app.get("/produto/:item", function(req, res){
     res.send("Item: " + req.params.item)
